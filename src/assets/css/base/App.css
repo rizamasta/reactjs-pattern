@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.bordered-bottom{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid cornflowerblue;
+  border-radius: 0px;
+}
+input.bordered-bottom:focus{
+  background-color: transparent;
+  border:none;  
+  border-bottom: 2px solid rgb(56, 102, 187);
+  border-radius: 0px;
+  outline: none;
+  box-shadow: none;
+}
+nav{
+  height: 63px;
+}
+.p-2-r{
+  padding-right: 5px;
+}
+.navbar-collapse{
+  width: 100%;
+  background-color: #f8f9fa!important;
+}
+a.nav-link{
+  border-bottom: none;
+  padding-bottom: 17px;
+  padding-top: 5px;
+}
+a.nav-link.active {
+  border-bottom: 2px solid #4500ff;
+  padding-bottom: 17px;
+  padding-top: 5px;
+}
+button.navbar-toggler{
+  border: none;
+}
+@media (min-width: 766px){
+  div#navbarCollapse{
+    padding-top:14px;
+  }
+}
+@media (max-width: 767px){
+  div#navbarCollapse{
+  background-color: #f7f7f7!important;
+  top: 63px;
+  left: 0px !important;
+  padding: 10px;
+  position: absolute;
+  }
+}
+.container-carousel {
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  color: white !important;
+  top: 253px;
+}
+.container-carousel p.description{
+  color: white !important;
+  background-color: #4500ff69;
+  padding:5px;
+}

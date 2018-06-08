@@ -1,0 +1,39 @@
+.grid-login{
+    padding-top:20%;
+}
+.grid-signup{
+    padding-top:80px;
+}
+.blur-background{
+    background-image: url('https://lh3.googleusercontent.com/-m8TxQMObg6c/U474EWu7Y9I/AAAAAAAAI2k/xkRGoIEC1iU/s1600/blur.jpg');
+    background-size: cover;
+    height: 100%;
+}
+.has-background{
+    background-image: url('../../images/login-background.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.signup  label,p{
+    text-shadow: none;
+    color: black;
+}
+.blurred-bg{
+	background-color: rgba(255, 255, 255,0.8);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+   
+}
+.box{
+    top:20%;
+    border-radius:5px;
+    box-shadow :(0 20px 30px rgba(0,0,0,.6));
+    border:1px solid rgba(255,255,255,.3);
+    padding:20px;
+    text-align: center;
+    box-sizing:(border-box);
+    transition: box-shadow .3s ease;
+    margin: 10px;
+  }
