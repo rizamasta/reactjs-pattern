@@ -4,7 +4,14 @@ body {
   font-family: sans-serif;
 }
 .main{
-  padding-top: 63px;
+  padding: 40px;
+  padding-top: 83px;
+  text-align: left;
+  color:black;
+}
+.main.full{
+  padding: 0px !important;
+  padding-top: 83px;
   text-align: left;
   color:black;
 }

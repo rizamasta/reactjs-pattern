@@ -32,7 +32,7 @@
   border-bottom: 1px solid cornflowerblue;
   border-radius: 0px;
 }
-input.bordered-bottom:focus{
+input.bordered-bottom:focus,textarea.bordered-bottom:focus{
   background-color: transparent;
   border:none;  
   border-bottom: 2px solid rgb(56, 102, 187);
