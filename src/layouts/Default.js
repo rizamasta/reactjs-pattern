@@ -7,7 +7,6 @@ import logo from '../assets/images/logo.svg';
 class Default extends React.Component {
 
     render() {
-        // var className = this.state.className;
         return (
             <div>
                 <header >
@@ -25,7 +24,7 @@ class Default extends React.Component {
                                     <Link className={this.props.location.pathname === '/about' ? "nav-link active" : "nav-link"} to="/about" >About</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className={this.props.location.pathname === '/topics' ? "nav-link active" : "nav-link"} to="/topics">Topics {JSON.stringify(process.env.NODE_ENV)}</Link>
+                                    <Link className={this.props.location.pathname === '/topics' ? "nav-link active" : "nav-link"} to="/topics">Topics</Link>
                                 </li>
                             </ul>
                             <form className="form-inline p-2-r mt-md-0">
