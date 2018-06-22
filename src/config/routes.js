@@ -1,4 +1,4 @@
-import { About, Home, Topics, NotFound, Signin, Signup } from '../modules/pages'
+import { About, Home, Topics, NotFound, Signin, Signup } from '../modules/pages/index'
 const routes = [
     {
         path: "/",
