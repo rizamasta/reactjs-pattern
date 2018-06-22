@@ -1,7 +1,7 @@
-export { default as About } from './About';
-export { default as Home } from './Home';
-export { default as Topics } from './Topics';
-export { default as NotFound } from './NotFound';
-export { default as Signin } from './Signin';
-export { default as Signup } from './Signup';
+export { default as About } from './views/About';
+export { default as Home } from './views/Home';
+export { default as Topics } from './views/Topics';
+export { default as NotFound } from './views/NotFound';
+export { default as Signin } from './views/Signin';
+export { default as Signup } from './views/Signup';
 
