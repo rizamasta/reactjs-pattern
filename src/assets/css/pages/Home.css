@@ -1,0 +1,23 @@
+.carousel-item img{
+    width: 100%;
+}
+.maxContent800 {
+    max-width: 800px;
+    text-align: justify;
+}
+.maxContent600 {
+    max-width: 600px;
+    text-align: justify;
+}
+.maxContent600 textarea{
+    resize: none;
+    height: 200px;
+}
+.maxContent300 {
+    max-width: 300px;
+    text-align: justify;
+}
+.homeContent{
+    padding-bottom: 40px;
+    position: relative;
+}
