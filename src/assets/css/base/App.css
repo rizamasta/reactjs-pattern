@@ -89,3 +89,6 @@ button.navbar-toggler{
   background-color: #4500ff69;
   padding:5px;
 }
+.delete{
+  color:rgb(129, 29, 29);
+}

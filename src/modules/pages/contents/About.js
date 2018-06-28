@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { getData } from '../../../config/httpProvider';
+import { __get } from '../../../config/httpProvider';
 class About extends Component {
     constructor(props) {
         super(props);
@@ -8,7 +8,7 @@ class About extends Component {
         }
     }
     componentWillMount() {
-        getData('profile').then(data => this.setState({ 'profile': data }));
+        __get('profile').then(data => this.setState({ 'profile': data }));
     }
     render() {
         return (

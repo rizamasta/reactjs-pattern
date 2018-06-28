@@ -18,7 +18,7 @@ class Default extends React.Component {
                         <div className="navbar-collapse bg-light collapse" id="navbarCollapse">
                             <ul className="navbar-nav mr-auto" data-toggle="collapse" data-target=".navbar-collapse.show" >
                                 <li className="nav-item">
-                                    <Link data-target="#navbarCollapse" className={this.props.location.pathname === '/' || this.props.location.pathname === '/home' ? "nav-link active" : "nav-link"} to="/home">Home</Link>
+                                    <Link data-target="#navbarCollapse" className={this.props.location.pathname === '/' || this.props.location.pathname === '/home' || this.props.location.pathname.indexOf('le-det') > 0 || this.props.location.pathname.indexOf('edit') > 0 ? "nav-link active" : "nav-link"} to="/home">Home</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className={this.props.location.pathname === '/about' ? "nav-link active" : "nav-link"} to="/about" >About</Link>
@@ -34,6 +34,7 @@ class Default extends React.Component {
                             <Link className="btn btn-outline-primary" to="/signin">Sign in</Link>
                         </div>
                     </nav>
+
                 </header>
                 <main role='main'>
                     <div data-toggle="collapse" data-target=".navbar-collapse.show" >

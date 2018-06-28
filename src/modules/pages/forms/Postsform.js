@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FormGroup, Button, Form } from 'react-bootstrap';
-import { postData } from '../../../config/httpProvider';
+import { __post } from '../../../config/httpProvider';
 
 class Postform extends Component {
     constructor(props) {
@@ -21,7 +21,7 @@ class Postform extends Component {
             title: this.state.title,
             body: this.state.body
         }
-        postData('posts', data).then(
+        __post('posts', data).then(
             function (res) {
                 res.json().then(function (data) {
                     console.log(data);

@@ -1,8 +1,8 @@
-const getData = (uri) => {
+const __get = (uri) => {
     return fetch(process.env.REACT_APP_API + uri)
         .then(res => res.json())
 }
-const postData = (uri, data) => {
+const __post = (uri, data) => {
     return fetch(process.env.REACT_APP_API + uri, {
         method: 'post',
         headers: {
@@ -11,10 +11,15 @@ const postData = (uri, data) => {
         body: JSON.stringify(data)
     });
 }
-const putData = (uri, data) => {
+const __put = (uri, data) => {
 
 }
-const delData = (uri, param) => {
-
+const __delete = (uri) => {
+    return fetch(process.env.REACT_APP_API + uri, {
+        method: 'delete',
+        headers: {
+            'content-type': 'application/json'
+        }
+    });
 }
-export { getData, postData, putData, delData };
+export { __get, __post, __put, __delete };

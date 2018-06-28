@@ -1,4 +1,4 @@
-import { About, Home, Topics, NotFound, Signin, Signup } from '../modules/pages/index'
+import { About, Home, Topics, NotFound, Signin, Signup, Detail } from '../modules/pages/index'
 const routes = [
     {
         path: "/",
@@ -17,6 +17,12 @@ const routes = [
         pageTitle: 'About',
         exact: true,
         component: About
+    },
+    {
+        path: "/article-detail/:idArticle",
+        pageTitle: 'Article',
+        exact: true,
+        component: Detail
     },
     {
         path: "/Topics",
